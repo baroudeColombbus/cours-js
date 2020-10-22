@@ -1,0 +1,26 @@
+/* les styles du repoo des cours et des exos JS-baroude */
+body {
+    background-color: bisque;
+    color:#000;
+}
+
+#wrapper {
+    width: 1200px;
+    margin: auto;
+}
+
+h1 {
+    
+    border-radius: 3rem;
+    background: rgba(0, 255, 255, 0.315);
+    width: 350px;
+    text-align: center;
+    margin: auto;
+}
+
+
+/* pour surligner le texte en jaune */
+.stabilo {
+    background-color: yellow;
+}
+
