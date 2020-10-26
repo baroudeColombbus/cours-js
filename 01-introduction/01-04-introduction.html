@@ -15,7 +15,19 @@
         <h1>JS - I 03 Introduction</h1>
         <button id="b1">Cliquez sur moi</button>
         <button id="b2">Ajoutez un paragraphe</button>
-
+        <h2>La place du cote et l'ordre d'éxécution</h2>
+        <p>L'ordre d'éxécution du code par le navigateur</p>
+        <P>Par défault, un navigateur va lire et éxécuter le code dans l'ordre de son écriture.</P>
+        <p>Lorsque le navigateur arrive soit chargé à un script, il va stopper le traitement du reste du html Jusqu'à ce que le code Javascript soit chargé dans la page et éxécuter</p>
+        <ol>
+            <li>Le navigateur commence à analyser ou à traîter  le code HTML</li>
+            <li>Le navigateur rencontre un élément <code>script</code></li>
+            <li>Le contenu JS est demandé et téléchargé (si il est en externe) puis exécuté. Durant tout ce temps l'analyseur du navigateur bloque l'affichage du HTML ce qui peut ralentir,  si le <code>script</code> est long,l'affichage de la page </li>
+            <li>Dès que JS a été exécuté, le contenu HTML est affiché</li>
+        </ol>
+        <p>Ce souci d'attente est résolu grâce au téléchargement aschynchrone des données avec l'attribut <code>async</code> ou <code>defer</code> dans le cas ou l'on fait appel à des fichiers externes.</p>
+        <h2>Le point virgule</h2>
+        <p>Le point virgule <code>;</code> est utilisé pour signifier la fin d'une instruction (une variable, une condition, une boucle etc..)</p>
 
     </div><!-- end div wrapper -->
 

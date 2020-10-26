@@ -1,5 +1,12 @@
+
 // mon premier fichier .js Baroude Colombbus
 // Ce fichier est lié à la page 01-04-introduction.html
+
+/* commentaire multiligne sur une seul ligne
+
+
+
+*/
 
 /* Déclaration de toutes mes variables */
 let bonjour = document.getElementById('b1');
