@@ -26,23 +26,37 @@ console.log('2 ** 3 = ',g)
 // priorité des calculs
 let h =  1 - 2 - 3;
 // print
-console.log(h)
+console.log(h);
 
 let j= 2 ** 3 ** 2;
 
 // le calcul dans j se fait de  droite à gauch
-console.log(j)
+console.log(j);
 
 let k = 1 + 4 -5;
 
-console.log(k)
+console.log(k);
 
 let l = 1- (2-3);
 
-console.log(l)
+console.log(l);
 
 alert('h contient : ' + h + 
         '\nj contient : ' + k + 
-        '\nl contient : ' + l 
-       
+        '\nl contient : ' + l       
 );
+
+// Opérateurs d'affectation
+
+let chiffre1 = 5; 
+console.log(chiffre1);
+
+// new example
+
+let m = 20;
+let o = 50;
+m += 15; // on ajoute 15 à m. Qui avait une valeur de 20 avant l'affectation de la nouvelle variable
+
+o *= 5;
+
+console.log(o)

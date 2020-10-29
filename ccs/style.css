@@ -3,19 +3,38 @@ body {
     background-color: bisque;
     color:#000;
     font-family: 'Times New Roman', Times, serif;
+    background: url(../img/javascript.jpg)no-repeat ;
 }
 
 #wrapper {
     width: 80%;
+    border-radius: 20px;
     margin: 0 auto;
     background: snow;
     padding: 2%;
 }
 
+#navigation {
+    display: flex;
+    justify-content: space-around;
+    
+    padding: 20px;
+    background-color: #F42E78;
+    margin-bottom: 5px;
+    
+}
+
+.nav-bar a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: snow;
+    font-size: 18px;
+}
+
 h1 {
     color: #FFF;
     border-radius: 1rem;
-    background:#F42E78;;
+    background:#F42E78;
     width: 350px;
     text-align: center;
     margin: auto;
@@ -38,6 +57,12 @@ h2 {
 h3, h4 {
     border-bottom: 3px solid #F42E78;
     width: 45%;
+}
+
+#operateur {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 /* h2 {
