@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS - III 02 condition</title>
+    <!-- mes styles -->
+    <script src="https://kit.fontawesome.com/3f45bedfc0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../ccs/style.css">
+    <!-- script js en externe: C'est la méthode recommendée, on indique la source, le fichier -->
+    <script src="condition.js" async></script>
+   
+
+</head>
+<body>
+    <div class="nav-bar">
+        <a href="#acceuil">Acceuil</a>
+        <a href="#introduction">introduction</a>
+        <div class="dropdown">
+            <button class="drptbn">
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="#01-04-introduction">introduction n°1</a>
+                <a href="#01-04-introduction">introduction n°2</a>
+                <a href="#01-04-introduction">introduction n°3</a>
+                <a href="#01-04-introduction"></a>introduction n°4</a>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div id="wrapper">
+        <h1>JS - III 02 Condition (IF)</h1>
+        <h2>1- if ...</h2>
+        <P>lA condition <code>if</code> est l'une des plus utilisées et est également la plus simple à comprendre puisqu'elle va nous permettre <span class="stabilo">d'éxécuté un bloc de code SI et SEULEMENT SI le résultat vaut <code>true</code></span></P>
+        
+    <h2>2 If éxécuté dans le fichier "condition.html"</h2>
+    <ul class="if_code">
+        <li>
+            <code>if (x> 1){// la condition ou le test est évalué à : "true"
+                alert('x contient une valeur supérieur à 1');// si c'est "true" on éxécute ce code. Si c'est "false", on n'éxécute pas l'alerte
+            
+            }</code>
+        </li>
+        <li>
+            <code>if(x==y) {// test si x et y contiennent la même valeur. La réponse  estt non
+                alert('x et y contiennent la même valeur');
+            }
+            </code>
+        </li>
+        <li><code>
+            if(y){
+                alert('la valeur de y est évalué à: "true');
+            }
+        </code></li>
+    </ul>
+    <p>!! Dans ce 3e test d'une condition va être évalué dans le texte booléen ; donc à <code>true</code>à l'exception des valeurs suivantes qui vont être évalauées à <code>false</code></p>
+    <ul>
+        <li>Le booléen <code>false</code></li>
+        <li>La valeur <code>0</code></li>
+        <li>Une chaîne de caractère vide</li>
+        <li>La valeur  <code>null</code></li>
+        <li>La valeur <code>undefined</code></li>
+        <li>La valeur <code>NaN</code> (Not a Number)</li>
+    </ul>
+
+
+
+
+
+
+
+    </div><!-- end div wrapper -->
+
+</body>
+</html>

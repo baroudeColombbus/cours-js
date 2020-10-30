@@ -11,10 +11,10 @@ let testValeurType = x === 4; //valeur égale en valeur ET en type (doit remplir
 
 let testEgalValeurType = x == 4; 
 
-let testDifferenceValeur = x != 5;
+let testDifferenceValeur = x != 5;// différent  de 5
 // console.log(testDifferenceValeur)
 
-let testDifferenceValeurType = x !== 4; // différent en valeur ou en type ?
+let testDifferenceValeurType = x !== 4; // différent en valeur ET en type ?
 // console.log(testDifferenceValeurType)
 
 let testinferieur = x < 8;

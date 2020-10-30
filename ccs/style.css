@@ -91,8 +91,8 @@ li:nth-of-type(2n+1) {
 }
 
 code {
-    color: #000;
-    font-size: 1.5rem;
+    color: royalblue;
+    font-size: 18px;
     font-style: oblique;
     font-weight: bold;
 }
@@ -133,3 +133,5 @@ table caption {
     letter-spacing: 1px;
 
 }
+
+

@@ -38,7 +38,6 @@
         }
         console.log(nombre2)
 
-        // addition de valeurs
         // addition de valeurs (string)
         var fruits = 'pommes';
         console.info(fruits);
@@ -86,14 +85,48 @@
         console.log(modulo);
         //EXO 
         document.write('<h3> Un petit exercice dans un prompt() et une alerte.</h3>');
-    </script>
+        // exo prompt
 
-    </script>// fin du Script javaScript
-   
+        // var surnom = prompt("Quel est votre nom ? ", "ex. Gusta Eiffel");
 
-    
+        // if (surnom != null) {
+        // document.getElementById("example").innerHTML = "Bonjour " + surnom + "! Comment allez-vous ?"
+        // };
+
+        //let sonAge = prompt('quel âge avez-vous ? ');
+        //document.write('<p>Vous avez' + sonAge + 'an.</p>');
+
+        document.write('<h3 style"background: orangered;width:40%;color:#fff;"> Exo 2  une valeur au cube et au cube puis au carré</h3>');
+        //Consigne récupérer dans le prompt une caleur donnéée par 
+        // envoyer ensuite le résultat de cette valeur au cube au carré 
+        // puis 
+        //let leNombre = prompt('insert a number ');
+       // document.write('<p>Le nombre que vous avez saisi nous donne : ' + leNombre **3 + ' au cube</p>');
+        
+        // alert('le nombre que vous avez saisi est ' + leNombre + 
+        //         '\n au cube cela nous donne ' + leNombre **3 +
+        //         '\n Merci'
+            
+        //     );
+        let votreChiffre = prompt('Faisons un calcul, rentrez un chiffre..');// invitation avec le prompt à saisir une valeur numérqiue dans la pop-up
+        // console.log('Son chiffre ' + votreChiffre); // récupère le nombre
+        // document.write('le chiffe rentré par l\'utilisateur est '  + votreChiffre);
+        let auCarre = votreChiffre * votreChiffre;//2- je calcule le contenu de la variable *2
+        let auCube = votreChiffre * votreChiffre * votreChiffre;//2- je calcule le contenu de la variable au cube
+        console.log(auCarre, auCube); // vérification des calculs
+        alert('Vous avez saisi le chiffre : ' + votreChiffre + 'ce chiffre au carré est égal à : ' + auCarre + 'ce chiffre au cube est égal à : ' + votreChiffre);
+        lert('Vous avez saisi le chiffre : ' + votreChiffre + 'ce chiffre au cube est égal à : ' + auCube);
+
+
+    </script> 
 </head>
 <body>
+
+    <p>Cliquez </p>
+    <button onclick="myFunction()">Cliquez Ici</button>
+    <p id="exemple"></p>
+
+
     
 </body>
 </html>
