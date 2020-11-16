@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS - IV - 01 Fonctions, introduction</title>
+    <!-- mes styles -->
+    <link rel="stylesheet" href="../ccs/style.css">
+    <!-- script en externe -->
+    <script src="fonctions.js" async></script>
+</head>
+<body>
+    <div id="wrapper">
+        <h1>JS - IV - 01 Fonctions, introduction</h1>
+        <p>Les fonctions en JS sont incontournables ! En voici deux exemples et une définition.</p>
+        <h2>1- Les fonctions prédéfinies</h2>
+        <!-- p#p$*2 -->
+        <p id="p1"></p>
+        <hr>
+        
+
+        <h2>Les fonctions prédefinies</h2>
+        <p>Une fonction est un bloc  de code nommé et réutilisable, et dont le but est d'éffectué et dont le but est d'effectué une tache précise</p>
+        <hr>
+        <p>Le nom d'une fonction est suivi d'un couple de parenthèses qui contiennent le plus souvent des arguments ex. <code>replace()</code></p> le premier argument de replace est la chaine de caractères que l'on recherche et le second est celle qui va la remplacer.
+        <p id="p2"></p>
+
+        <h2>Les fonctions personalisées</h2>
+        <p>Exemples</p>
+        <h3>A- ex. <code>randomX100()</code></h3>
+        <p>Le premier ex de la création de fonctiona pour but de nous montrer que l'on peut éxécuter une fonction à l'intérieur d'une autre fonction </p>
+        <p><code>function randomX100(){<br>
+            return Math.random() * 100;
+        }</code> <br> Ici on peut appeller la fonction dans un console.log() <code>console.log(randomX100());</code></p>
+        <p id="p3"></p>
+
+        <h3>B ex. <code>multiplier()</code></h3>
+        <p><code>function multiplier(nbr1, nrb2){<br>
+            return ('Multiplions ' + nbr1 + ' X ' + nrb2 + ' = ' + (nbr1 * nrb2));
+        }</code> </p>
+
+        <h2>Récapitulatif sur les fonctions</h2>
+        <p>Les fonctions sont des blocs de code nommé et réutilisable et dont le but est d'effectuer une tâche précise</p>
+        <ul>
+            <li>Il existe 2 types de fonctions en JS : les fonctions natives ou prédefinies (ou méthodes )qu'on aura qu'appeler et les fonctions personalisées qu'on va créer</li>
+            <li>Pour exécuter le code d'une fonction il faut l'appeler. Pour cela, il suffit d'écrire son nom suivi de parenthèses en passant éventuellement des arguments dans les parenthèses.</li>
+            <li>On crée une fonciton personnalisée grâce au mot-clef "function" :  <ul>
+                <li>: si une fonction a besoin qu'on lui passe des valeurs pour fonctionner, alors on définira des paramètres</li>
+                 <li>lors de sa définition. place des paramètres</li>
+             </ul> 
+
+        </ul>
+        
+        <p id="p4"></p>
+        <p id="p5"></p>
+        <p id="p6"></p>
+
+
+
+
+
+    </div>  
+</body>
+
+</html>

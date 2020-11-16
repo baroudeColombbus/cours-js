@@ -1,0 +1,131 @@
+body {
+    /* background-color: #2C2C2C; */
+    background-color: #1D1D1D;
+    color: grey;
+    font-family: sans-serif;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  header.entete {
+    line-height: 75px;
+  }
+  header.entete img {
+    height: 75px;
+    vertical-align: middle;
+  }
+  header.entete a:nth-child(2) img {
+    height: auto;
+    width: 150px;
+  }
+  .entete-gauche {
+    float: left;
+  }
+  .entete-droite {
+    float: right;
+  }
+  header.entete {
+    text-align: center;
+  }
+  h1 {
+    display: none;
+  }
+  footer {
+    background-color: #80808017;
+    text-align: center;
+    margin-top: 1rem;
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+  footer a {
+    text-decoration: none;
+  }
+  h2 {
+    text-align: center;
+    color: #C7C7C7;
+    background-color: #444444;
+    padding: 0.5rem;
+  }
+  h3 {
+    background-color: #272727;
+    color: #C7C7C7;
+    padding: 0.5rem;
+  }
+  h4 {
+    padding: 0 1rem;
+  }
+  h5 {
+    padding: 0 2rem;
+  }
+  a {
+    color: #FDF8CF;
+  }
+  a:hover {
+    color: #F7BD1E;
+  }
+  .warning {
+    color: #ff0000a6;
+    padding: 10px;
+    border: 2px solid #ff0000a6;
+  }
+  .information {
+    color: #0077ff96;
+    padding: 10px;
+    border: 2px solid #0077ff96;
+  }
+  code {
+    /* background-color: #1D1D1D; */
+    background-color: #111111;
+    color: white;
+    padding: 0.125rem;
+    border-radius: 0.125rem;
+    font-style: normal;
+  }
+  dl {
+    margin-left: 1rem;
+  }
+  dt a {
+    text-decoration: none;
+  }
+  dt {
+    margin-bottom: 0.2rem;
+    margin-top: 0.8rem;
+  }
+  dd {
+    color: white;
+  }
+  dd + dd {
+    font-style: italic;
+    font-size: 0.8em;
+    color: grey;
+  }
+  
+  /* ENTRAINEMENT */
+
+
+  .number {
+    color: #86de74;
+
+  }
+
+  details{
+    margin-bottom:0.5rem;
+    padding: 0.5rem;
+    color: #fff;
+    background-color: #422c0b;
+  }
+
+  details .fa-info-circle {
+    color:#8383ff;
+  }
+
+  details .graduation-cap{
+    color:#c0c000
+  }
+
+  ul li {
+    margin-bottom: 0.125rem;
+  }
+
+  
+  

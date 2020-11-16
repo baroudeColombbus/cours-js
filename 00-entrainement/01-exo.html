@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>01- Exo</title>
+    <script>
+        // EXERCISE 1- Déclaration des variables
+        // num qui contient le nombre 255
+        // txt qui contient la chaîne de caractères 255
+        // bin qui contient la valeur booléenne VRDisplayEvent
+        // flt qui contient la valeur 7.23
+        // Affichez les variables dans des console.log
+        var num = 255;
+        var txt = '255';
+        var bin = true;
+        var flt = 7.23;
+        console.log(num,txt,bin,flt)
+
+        // EXERCISE 2
+
+        // Aplliquer à num l'opérateur d'incrémentation
+            num++;
+        console.log(num)
+        // concaténez à la chaine txt  la chaîne suivante : 'est ici une chaîne de caractères'
+        console.log('est ici une chaîne de caractères' + txt);
+        //Inverser la valeur logique de bin
+        bin = false;
+
+        //Ajouter à flt la valeur contenue dans num
+        flt = flt + num
+        // flt +=  num //
+        console.log('flt + num = ',flt)
+
+        // EXERCISE 3
+        // num2 qui contient le nombre 23
+        let num2 = 23;
+        console.log('num2 contient',num2);
+        // txt2  la chaîne de caractère 33
+        let txt2 = '33'
+        console.log(num2,'en chaîne de caractère');
+        // affichez le résulat de txt2 + num2 dans la console.log()
+        // on peut pas aditionner une String et un nombre
+        resultat = txt2 + num2
+        console.log('<br>',txt2,resultat,typeof(resultat), 'le resultat nous montre montre que c\'est une String')
+        // affichez le résulat de txt2 + num2
+
+        // avec num2 + txt2
+        // on ajoute une variable tmp qui contient 0
+        // Convertir la châine contenue dans le txt2 en nombre avec parseInt() et mettre le résultat dans tmp
+        // ajouter à num2 le contenu de tmp
+
+        var tmp = 0;
+
+        let parseInteger = parseInt(txt2)
+        console.log(typeof(txt2,parseInteger))
+
+        tmp = parseInteger + num2
+                
+                
+        
+        
+
+    </script>
+</head>
+<body>
+    <h1>Exo</h1>
+    
+</body>
+</html>
