@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+        <meta charset="UTF-8">
+        <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+        <!-- la ligne suivante vient de getbootstrap et comporte une valeur supplémentaire "shrink-to-fit=no" cela concerne les mobiles -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>JS V- Objet</title>
+        <!-- CSS de Bootstrap -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <!-- <link rel="stylesheet" href="../css/style.css"> -->
+        <script src="selecteurs.js"></script>
+</head>
+<body>
+    <div class="jumbotron container">
+        <h1 id="titreNiveau1">JS - VI 01 - Sélecteurs</h1>
+        <p class="lead">Les Sélecteurs en JS</p>
+    </div><!-- fin jumbotron -->
+    <div class="container">
+        <div class="row ">
+            <div class="col-12 col-lg-12 p-4">
+                <h2 id="titreNiveau2">1- Ce titre(#titreNiveau1) sera séléctionné dans la console</h2>
+                <p >Dans la console nous voyons les différentes méthodes de sélectionner cet élément dont l'ID esst <code>titreNiveau1</code></p>
+                <ol>
+                    <li>Dans une variable qui se trouve dans <code>window.onload()</code>/// <code>var select1 = titreNiveau1</code></li>
+                    <li>Dans une variable simple <code>var select2 = titreNiveau2; </code></li>
+                    <li>Avec getElementById directement dans le document <code>document.getElementById('titreNiveau1');</code></li>
+                    <li>Avec getElementsByClassName je récupère un ensemble une collection de class <code>getElementsByClassName('maClass1')</code></li>
+                    <li>Avec getElementsByTagName je récupère un ensemble d'élément par le nom</li>
+    
+                </ol>
+            </div><!-- fin col -->
+        </div><!-- fin row -->
+        <div class="row">
+            <div class=" col-12 col-lg-4 .bg-simple  p-4"><p class="selectClasse">1 - La programmation procédurale est le type de programmation le plus commun et le plus populaire. C'est une façon d'envisager son code sous la forme d'un enchaînement de procédures ou d'étapes qui vont résoudre les problèmes un par un. Cela correspond à une approche verticale du code où celui-ci va s'exécuter de haut en bas, ligne par ligne. Jusqu'à présent, nous avons utilisé cette approche dans nos codes JavaScript.</p></div><!-- fin col -->
+            <div class=" col-12 col-lg-4 .bg-simple  p-4"> <p>2 - La programmation fonctionnelle est une façon de programmer qui considère le calcul en tant qu'évaluation de fonctions mathématiques et interdit le changement d'état de la mutation des données. La programmation fonctionnelle est une façon de concevoir un code en utilisant un enchaînement de fonctions "pures", c'est à dire des fonctions qui vont toujours retourner le même résultat si on leur passe les mêmes arguments et qui ne vont retourner qu'une valeur sans modification au-delà de leur contexte.</p></div><!-- fin col -->
+            <div class=" col-12 col-lg-4 .bg-simple  p-4"><p>3 - La programmation orientée objet est une façon de concevoir un code autour d'un concept d'objets. Un objet est une entité qui peut être vue comme indépendante et qui va contenir un ensemble de variables (qu'on va appeler propriétés) et de fonctions (qu'on appellera méthodes). Ces objets vont pouvoir interagir entre eux.</p></div><!-- fin col -->
+        </div>
+        <div class="row bg-danger">
+            <div class="col-12">
+                <h2 id="aChanger">2- Ce titre 2 (#achanger)</h2>
+                <p class="ma-classe"></p>
+            </div><!-- fin col -->
+        </div><!-- fin row -->
+        <div class="row my-4">
+            <div class="col-4 .bg-simple">
+                <p class=".selectClasse">En effet, vous devez savoir que le JavaScript est un langage qui intègre l'orienté objet dans sa définition même ce qui fait que tous les éléments du JavaScript vont soit être des objets, soit pouvoir être convertis et traitées comme des objets. Il est donc essentiel de bien comprendre cette partie sur les objets pour véritablement maitriser le JavaScript et utiliser tout ce qui fait sa puissance</p>
+                    <p>Pour le dire très simplement, un objet en JavaScript est un conteneur qui va pouvoir stocker plusieurs variables qu'on va appeler ici des propriétés.</p>
+            </div><!-- fin col -->
+            <div class="col-8 bg-secondary">
+               <p>inserer des infos ici</p>
+            </div><!-- fin col -->
+        </div><!-- fin row -->
+        <div class="row my-4 bg-danger">
+            <div class="col-6">
+                <h2 id="titre2">3 - Ce titre 2(#titre2) va changer aussi</h2>
+                <p class="ma-classe">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga minima, itaque aliquid inventore ab culpa reprehenderit laborum accusamus fugit voluptatibus aliquam facere iure cum ratione cupiditate, eos, doloremque quae doloribus?</p>
+            </div><!-- fin col -->
+            <div class="col-6">
+                <p class="ma-classe selectClasse">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui accusamus pariatur reprehenderit nemo sint aspernatur voluptatem nesciunt? Doloremque illum autem facere, possimus sunt assumenda. Quam, enim quibusdam. Autem, quidem reprehenderit?</p>
+
+            </div>
+        </div><!-- fin row -->
+        <div class="row my-4">
+            <div class="col-12">
+                <h3>Exemple un objet nommé "utilisateur"</h3>
+            </div><!-- fin col -->
+            <div class="col-4 bg-info">
+            <p>un notre paragraphe</p>
+                
+            </div><!-- fin col -->
+            <div class="col-8 .bg-simple"> <p> paragraphe vide</p> </p>
+            </div><!-- fin col -->
+        </div><!-- fin row -->
+    </div><!-- fin container -->
+
+    <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
+        <div class="container text-center">
+          <small>Copyright &copy; baroude</small>
+        </div>
+      </footer><!-- fin du footer -->
+    <!-- En 1er JQuery, puis Popper.js et le JS de Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script> -->
+
+    <!-- Javascript -->
+    <script>
+
+        // cette méthode est ancienne
+        var select2 = titreNiveau1;
+        console.log(select2);
+        // "ème méthode getElementById directement avec sélécteur 
+        console.log('var select3 = document.getElementById')
+        var select3 = document.getElementById('titreNiveau1');
+        console.log(select3);
+        //4ème méthode : getElementByClassName
+        console.log('document.getElementsByClassName()')
+        // je cherche tous les éléments qui ont cette class
+        var selectClass = document.getElementsByClassName('ma-classe');
+        console.log(selectClass);
+        // grâce à l'index des éléments qui ont la classe .ma-classe, je peux en cibler un en particulier
+        console.log('ciblons les élément ayant comme classe "ma-classe" selectClass[1]')
+        console.log(selectClass[1]);
+        // .innerHTML cible ce qui se trouve dans l'élément on dit qu'il définit le contenu
+        selectClass[1].innerHTML;
+        //console.log('selectClass[1].innerHTML');
+        // 
+        console.log(selectClass[1].innerHTML);
+        selectClass[1].innerHTML = 'Et la je change le contenu du paragraphe ayant pour nom de class ".ma-classe" à la place du lorem Ipsum'
+        // mini exo 
+
+        let changeID = document.getElementById('aChanger');
+        temp = changeID
+        console.log(temp)
+        var NouveauTitre = '8- Nouveau titre 2'
+        console.log(NouveauTitre);
+        temp.innerHTML = NouveauTitre;
+        console.log('on change le titre',temp.innerHTML)
+        //temp.innerHTML = '3- Nouveau Titre';
+        //console.log(temp.innerHTML)
+
+        //hangeId
+       // console.log(changeId)
+
+
+       // 5ème méthode
+       // sélection d'éléments par son nom getElementsByTagName
+       var lesP = document.getElementsByTagName('p'); // on trouve tous les paragraphes de la page
+       console.log(lesP);
+       console.log(lesP.length);
+
+       // MINI EXO sélectionner le premier paragraphe
+
+       console.log(lesP[0]);
+
+      
+       // les mots clefs à appliquer avec .style
+       // https://www.w3schools.com/jsref/dom_obj_style.asp
+
+    // si je veux maintenant changer les styles pour tous les p
+
+    for(var i=0; i < lesP.length; i++){
+        lesP[i].style.backgroundColor = "olive";
+        lesP[i].style.color = "#fff";
+    }
+
+     // modification du style d'un élément
+       // pour changer le style css d'un élément
+
+       lesP[0].style.backgroundColor = "red";
+       lesP[0].fontVariant = "small-caps";
+       lesP[0].style.borderRadius = "8px";
+       lesP[0].style.padding = "10px";
+       lesP[0].style.color = "#fff";
+       //lesP[0].style.textAlign = "center";
+      lesP[0].style.fontSize = "1.5rem";
+      lesP[0].style.fontWeight = "bold";
+
+      // 6ème méthode 
+      // avec querySelector
+
+      let query1 = document.querySelector('#titre2');
+      console.log(query1);
+
+      let query2 = document.querySelectorAll('ma-classe');
+      console.log(query2);
+
+      let query3 = document.querySelectorAll('p');
+      console.log(query3);
+
+
+// Mini Exo 
+// à certains paragraphes mettez une classe selectClasse
+// changer le texte du numéro numéro pour "je change le texte de ce paragraphe" passez le en fond "Lightblue" et texte blanc et gras
+
+let query4 = document.querySelectorAll('p.selectClasse');
+console.log(query4); // print the query4 in the console
+
+// change individual paragraphe having the class name  = selectClasse
+query4[1].innerHTML = 'je change le texte de ce paragraphe" passez le en fond';
+query4[1].style.backgroundColor = "lightblue";
+query4[1].style.color = "white";
+query4[1].style.fontWeight = "bold"
+
+// important!
+// To change the css style of all the  <p></p> at once, one needs to use the for loop
+// for(var i=0; i < lesP.length; i++){
+//         lesP[i].style.backgroundColor = "olive";
+//         lesP[i].style.color = "#fff";
+//     }
+
+
+
+
+
+
+    </script>
+</body>
+</html>
