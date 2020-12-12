@@ -103,6 +103,9 @@ code {
 .stabilo {
     background-color: yellow;
 }
+.stabilo_blue {
+    background-color: rgba(0, 174, 255, 0.11);
+}
 /* Tableau  */
 table {
     width: 50%;

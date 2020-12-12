@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exo -17-Triangle</title>
+    <link rel="stylesheet" href="../../ccs/style.css">
+</head>
+<body>
+    <div id="wrapper">
+        <h1>EXO-17 Triangle</h1>
+        <p>Ecrivez un programme triangle qui construit prodgressivement dans la console, un triangle de 7 ligne faites-le dabord avec une seule boucle for puis avec une boucle while</p>
+    
+        <details class="stabilo">
+            Aucune
+        </details>
+        <hr>
+        <p>Avec for </p>
+        <blockquote><code><br><span class="stabilo">Solution n°1</span><br> for(i=0; i <=7; i++){
+            <br> console.log("#".repeat(i));
+        }<br>
+        <span class="stabilo">solution n°2</span><br>
+        let character = '';
+        <br> for(let i = 1; i <= 8; i++){
+            <br>character += '#';
+            <br>console.log(character);
+        }
+        </code></blockquote>
+        <p id="p1"></p>
+        <p id="p2"></p>
+
+        <hr>
+        <p>Avec while(...)</p>
+        <blockquote><code><span class="stabilo_blue">Solution 1</span><br> let nombreDeFois = 0;
+            let hashtag = '';
+            
+            <br> while(nombreDeFois <= 7){
+                <br>   hashtag += '#';
+                <br>  nombreDeFois++;
+                <br>  console.log(hashtag)
+            }
+            </code></blockquote>
+        <p id="p3"></p>
+        <p id="p4"></p>
+       
+
+    </div>
+    <!-- le fichier de javaScript -->
+    <script src="triangle.js"></script>
+</body>
+</html>
