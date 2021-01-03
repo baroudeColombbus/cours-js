@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exo -23 rectangle</title>
+    <link rel="stylesheet" href="../../ccs/style.css">
+
+    <style>
+    .rectangle {
+        height: 300px;
+        width: 400px;
+        background-color: royalblue;
+        border-radius: 8px;
+        transition: background-color 0.8s;
+    }
+
+    .good:hover{
+        display: none;
+        /* background-color: limegreen; */
+        transform: translate(15px);
+        box-shadow: 0px 20px 30px 0px rgba(226, 11, 11, 0.1);
+}
+    .cache {
+        display: none;
+    }
+
+    .hide {
+            display: none;
+        }
+       
+        .rectangle.important {
+            background-color: firebrick;
+        }
+        .rectangle.important.good {
+            background-color: limegreen;
+        }       
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <h1>EXO-23 Rectangle avec toggle</h1>
+        <p>Construire un programme affichant un rectangle de coleur qui réagit à différentes intéractions avec la souris de l'utilisateur</p>
+        <h2>Dans l'en-tête de la page : Ajoute un titre au programme "Gestion de la souris"</h2>
+        <ul>
+            <li>Créer un bouton (id : #toggle-rectangle) ayant pour intitulé "caché / afficher le rectangle</li>
+            <li>Dans la partie principale de la page : </li>
+            <li>Ajouter des paragraphes de texte expliquant ce que le programme peut faire (lire ci-dessous les intéractions)</li>
+            <li>Créer une balise **div** vide(class : .rectangle ) pour le rectangle</li>
+        </ul>
+
+        <h2>CSS</h2>
+        <ul>
+            <li>Le rectangle bleu (*royalblue*), de taille 400x300 pixels et possède des coins arrondis</li>
+            <li>Lorsqu'on applique la classe *good* en plus dau rectangle, il devient vert(*limegreen*)</li>
+            <li>Le changement de couleur du rectangle doit s'animer</li>
+            <li>Ajouter le css nécessaire restant pour que le programme fonctionnne</li>
+        </ul>
+
+        <h2>Intéractions</h2>
+        <ul>
+            <li>Quand on clique sur le bouton *toggle-rectangle*, cela cache ou affiche le rectangle </li>
+            <li>Quand la souris se déplace à l'intérieur du rectangle il devient rouge; il reprend sa coleur originale quand la souris n'est plus dedans </li>
+            <li>Quand on double clique sur le rectangle il devient vert </li>
+        </ul>
+
+        <h2>Remarques</h2>
+        <ul>
+            <li>Organiser le code en trois parties : les variables, les fonctions , et enfin le code principal.</li>
+            <li>Nommer correctment les Gestionnaires d'évènement pour qu'ils aient un sens</li>
+        </ul>
+    
+        <details class="stabilo">
+        </details>
+        <button type="button" class="btn" id="toggle-rectangle"> Cacher / Afficher le rectangle</button>
+        <hr>
+
+        <p>Survoler à la souris le rectangle ci-dessous afin qu'il change de coleur !</p>
+        
+        <p>Ou double-cliquez dessus</p>
+
+        <div class="rectangle good" id="rectangle">
+
+        </div>
+        <p id="p1"></p>
+
+        <hr>
+        <p>Avec <code> do while(...)</code></p>
+        <p id="p2"></p>
+
+
+        <p id="p3"></p>
+        <p id="p4"></p>
+        <p></p>
+        <p></p>
+        <p></p>
+     
+    </div>
+    <!-- le fichier de javaScript -->
+    <script src="23-rectangle-toggle.js"></script>
+</body>
+</html>
