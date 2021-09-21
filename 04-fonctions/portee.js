@@ -21,7 +21,6 @@ function portee3(){// une 3éme fonction avec de nouveau locales qui portes le m
     document.getElementById('p3').innerHTML = 'Depuis portée1() : a = ' + x + ' b = ' + y
 }
 
-
 portee2()
 portee1()// on appelle la function
 portee3()
