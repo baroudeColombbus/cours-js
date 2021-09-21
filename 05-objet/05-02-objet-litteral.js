@@ -11,7 +11,6 @@ let victor = {
 
 }// fin de l'objet
 
-
 // on appelle la fonction contenu dans l'objet
 //victor.bonjour()
 victor.age = 80;
